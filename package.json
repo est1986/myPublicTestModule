@@ -4,7 +4,7 @@
   "main": "./dist/main.js",
   "types": "./dist/main.d.ts",
   "scripts": {
-    "prepare": ".\\node_modules\\.bin\\tsc"
+    "postinstall": ".\\node_modules\\.bin\\tsc"
   },
   "repository": {
     "type": "git",
